@@ -5,29 +5,36 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>BarberShop</title>
+		<!--Шрифти-->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
+
+		<!--Кастомні стилі-->
+		<link rel="stylesheet" href="./css/styles.css" />
 	</head>
 	<body>
 		<!--Шапка-->
-		<header>
-			<a href="">
-				<img src="./images/Logo.svg" alt="Logo BarberShop" width="69" height="56" />
+		<header class="header">
+			<a class="header-logo" href="">
+				<img class="header-image" src="./images/Logo.svg" alt="Logo BarberShop" width="69" height="56" />
 			</a>
-			<nav>
-				<ul>
-					<li><a href="">О нас</a></li>
-					<li><a href="">Услуги и цены</a></li>
-					<li><a href="">Мастера</a></li>
-					<li><a href="">Контакты</a></li>
+			<nav class="header-nav">
+				<ul class="header-list">
+					<li class="header-list-item"><a class="header-link" href="">О нас</a></li>
+					<li class="header-list-item"><a class="header-link" href="">Услуги и цены</a></li>
+					<li class="header-list-item"><a class="header-link" href="">Мастера</a></li>
+					<li class="header-list-item"><a class="header-link" href="">Контакты</a></li>
 				</ul>
 			</nav>
-			<div>
-				<a href="tel:+380441111111">+38 044 111 11 11</a>
-				<button type="button">онлайн-запись</button>
+			<div class="header-group">
+				<a class="header-contact" href="tel:+380441111111">+38 044 111 11 11</a>
+				<button class="header-btm" type="button">онлайн-запись</button>
 			</div>
 		</header>
 		<main>
 			<!--Секція Hero-->
-			<section>
+			<section class="hero">
 				<ul>
 					<li><a href="">Youtube</a></li>
 					<li><a href="">Instagram</a></li>
@@ -46,7 +53,7 @@
 				</ul>
 			</section>
 			<!--Секція about-->
-			<section>
+			<section class="about">
 				<ul>
 					<li><img src="./images/boroda.jpg" alt="boroda" width="270" height="445" /></li>
 					<li><img src="./images/haircut.jpg" alt="haircut" width="270" height="445" /></li>
@@ -64,7 +71,7 @@
 				</div>
 			</section>
 			<!--Секція Price-->
-			<section>
+			<section class="price">
 				<p>Проведи время в компании лучших мастеров</p>
 				<h2>Услуги и цены</h2>
 				<ul>
@@ -90,7 +97,7 @@
 				<button type="button">онлайн-запись</button>
 			</section>
 			<!--Секція Benefits-->
-			<section>
+			<section class="benefits">
 				<ul>
 					<li>
 						<p>600</p>
@@ -120,7 +127,7 @@
 				</div>
 			</section>
 			<!--Секція Team-->
-			<section>
+			<section class="team">
 				<p>для настоящих ценителей атмосферы</p>
 				<h2>Наши мастера</h2>
 				<ul>
@@ -160,7 +167,7 @@
 				</ul>
 			</section>
 			<!--Секція Portfolio-->
-			<section>
+			<section class="portfolio">
 				<p>На латинском языке “барба” означает “борода”</p>
 				<h2 hidden>Примеры работ</h2>
 				<ul>
@@ -171,7 +178,7 @@
 				</ul>
 			</section>
 			<!--Секція Contacts-->
-			<section>
+			<section class="contacts">
 				<div>
 					<h2>Онлайн-запись</h2>
 					<form action=""></form>
@@ -201,7 +208,7 @@
 			</section>
 		</main>
 		<!--Секція Footer-->
-		<footer>
+		<footer class="footer">
 			<p>&#169; Copyright 2020</p>
 			<ul>
 				<li><a href="http://" target="_blank" rel="nooperener noreferrer">Instagram</a></li>
