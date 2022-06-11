@@ -1,0 +1,98 @@
+:root {
+	--main-font: "Open sans";
+	--secondary-font: "Relaway";
+	--accent-color: #ff6c00;
+
+	/*fonts*/
+	--main-font: "Open Sans";
+	--secondary-font: "Raleway";
+	/*text colors*/
+	--accent-txt-color: #ff6c00;
+	--main-light-theme: #303030;
+	--main-dark-theme: #ffffff;
+}
+body {
+	font-family: var (--main-font), sans-serif;
+	font-size: 18px;
+	line-height: 1.67;
+	color: aliceblue;
+}
+/* common styles start*/
+.link {
+	text-decoration: none;
+}
+.list {
+	list-style: none;
+}
+.btn {
+	font-family: inherit;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 1.33;
+	letter-spacing: 0.09em;
+	text-transform: uppercase;
+	background-color: transparent;
+}
+.btm:hover,
+.btm:focus {
+	background-color: var(--accent-txt-color);
+	color: var(--main-dark-theme);
+}
+.btm-mode-light {
+	color: var(--main-light-theme);
+}
+.btm-mode-dark {
+	color: var(--main-dark-theme);
+}
+.socials-link {
+	font-weight: 600;
+	font-size: 11px;
+	line-height: 1.36;
+	letter-spacing: 0.2em;
+	color: var(--main-light-theme);
+}
+.socials-link:hover,
+.socials-link:focus {
+	color: var(--accent-txt-color);
+}
+.uppertitle {
+	font-weight: 600;
+	font-size: 11px;
+	line-height: 1.36;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: #303030;
+}
+.uppertitle-mode-light {
+	color: #303030;
+}
+.uppertitle-mode-dark {
+	color: rgba(157, 164, 189, 0.6);
+}
+/*Header section*/
+.header {
+	background-color: #191c26;
+}
+.header-link {
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 1.33;
+	letter-spacing: 0.1em;
+	color: var(--main-dark-theme);
+}
+.header-link:hover,
+.header-link:focus {
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 16px;
+	letter-spacing: 0.1em;
+	color: var(--accent-txt-color);
+}
+.header-contact {
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 1.33;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: var(--main-light-theme);
+}
