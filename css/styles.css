@@ -863,9 +863,15 @@ svg:hover {
 
 	border: none;
 	border-radius: 50%;
+	fill: var(--main-light-theme);
 	background-color: #fff;
 	box-shadow: 4px 4px 8px rgba(55, 57, 63, 0.203);
 	cursor: pointer;
+	
+}
+.modal-close-btn:hover,
+.modal-close-btn:focus{
+	fill: var(--accent-txt-cl);
 }
 
 .register-form {

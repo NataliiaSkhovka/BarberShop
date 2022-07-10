@@ -618,7 +618,7 @@
 					</label>
 
 					<label>
-						<span>Почта*</span>
+						<span>Почта* </span>
 						<input type="text" name="user-name" placeholder="" />
 
 						<svg width="20" height="20">
@@ -629,8 +629,8 @@
 					<label>
 						<span>Пароль*</span>
 						<input type="password" name="user-pass" />
-						<svg width="20" height="20">
-							<use href="./images/symbol-defs.svg#icon-unlocked"></use>
+						<svg width="21" height="22">
+							<use href="./images/symbol-defs.svg#icon-ulocked"></use>
 							<use href="./images/symbol-defs.svg#icon-locked"></use>
 						</svg>
 					</label>
@@ -680,7 +680,19 @@
 									required
 								/>
 								<svg class="payment-icon" width="36" height="32">
-									<use href="./images/symbol-defs.svg#icon-googlepay"></use>
+									<use href="./images/symbol-defs.svg#icon-google-pay"></use>
+								</svg>
+							</label>
+							<label class="payment-label">
+								<input
+									class="visually-hidden payment-input"
+									type="radio"
+									name="user-payment"
+									value="apple-pay"
+									required
+								/>
+								<svg class="payment-icon" width="36" height="32">
+									<use href="./images/symbol-defs.svg#icon-apple-pay"></use>
 								</svg>
 							</label>
 						</div>
@@ -696,7 +708,7 @@
 						<span class="form-checkbox-agreement">Даю согласие на использование и обработку персональных данных</span>
 					</label>
 
-					<button type="submit">Зарегистрироваться</button>
+					<button class="btn btn-mode-light" type="submit">Зарегистрироваться</button>
 				</form>
 			</div>
 		</div>
