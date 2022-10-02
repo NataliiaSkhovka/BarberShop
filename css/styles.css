@@ -460,7 +460,7 @@ img {
 	margin-right: auto;
 
 	background-color: #191C26;;
-	/*background-image: url(../images/img@1x_lg.png);*/
+	background-image: url(../images/img@1x_lg.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -743,7 +743,7 @@ svg:hover {
 /* Contacts section */
 .contacts {
 	background-color: #191c26;
-	background-image: url(../images/Bg.jpg);
+	background-image: url(../images/Bg.png);
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: top 50% left calc(50% + 312px);
