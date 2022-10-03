@@ -299,7 +299,9 @@ img {
 	display: flex;
 	align-items: center;
 }
-
+.header-image{
+	fill: currentColor;
+}
 .header-logo {
 	margin-right: 71px;
 }
@@ -793,10 +795,24 @@ svg:hover {
 	color: #9da4bd;
 }
 /* Footer section */
-.footer-socials-link{
-	text-align:right;
+.footer-social-list{
 	margin-top: 56px;
-	margin-left: 773px;
+	margin-bottom: 56px;
+}
+.footer-socials-link{
+	display: flex;
+	text-align: right;
+	align-items: center;
+	gap: 40px;
+	justify-content: flex-end;
+	
+}
+.footer-socials-link::before{
+	content: "";
+	width: 60px;
+	height: 1px;
+
+	background-color: #303030;
 }
 .footer-copyright {
 	font-weight: 600;
@@ -805,6 +821,7 @@ svg:hover {
 	text-align: left;
 	letter-spacing: 0.2em;
 	margin-top: 56px;
+	margin-bottom: 56px;
 	color: #9da4bd;
 }
 
