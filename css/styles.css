@@ -948,7 +948,18 @@ svg:hover {
 	user-select: none;
 }
 
-/* radio buttons */
+/* payment */
+.payment-icon-check{
+	align-items: center;
+	justify-content: center;
+	width: 36px;
+	height: 32px;
+	outline: 0px solid #9da4bd;
+	outline-offset: -1px;
+	border-radius: 6px;
+
+	transition: outline-color 250ms, background-color 250ms;
+}
 .payment-group {
 	display: flex;
 	align-items: center;
@@ -958,9 +969,17 @@ svg:hover {
 .payment-icon {
 	fill: #9da4bd;
 	transition: 400ms;
+	
 }
-.payment-input:checked + .payment-icon {
-	fill: #ff6c00;
+.payment-input:focus + .payment-icon-check {
+	background-color: #ff6c00;
+	fill: #090b13;
+	outline-color: #ff6c00;
+}
+.payment-input:checked + .payment-icon-check {
+	background-color: #ff6c00;
+	fill: #090b13;
+	outline-color: #ff6c00;
 }
 
 /* choises select */

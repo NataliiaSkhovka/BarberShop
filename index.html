@@ -612,7 +612,7 @@
 				<form class="register-form">
 					<strong>Присоединяйтесь к нам!</strong>
 					<label>
-						<span>Имя*</span>
+						<span>Имя* </span>
 						<input type="text" name="user-name" placeholder="" />
 
 						<svg width="20" height="20">
@@ -650,53 +650,34 @@
 						<p class="" id="payment-method">Виберите способ оплаты</p>
 						<div class="payment-group">
 							<label class="payment-label">
-								<input
-									class="visually-hidden payment-input"
-									type="radio"
-									name="user-payment"
-									value="visa"
-									checked
-									required
-								/>
-								<svg class="payment-icon" width="36" height="32">
+								<input class="visually-hidden payment-input" type="radio" name="user-payment" value="visa" checked />
+									<span class="payment-icon-check"> 
+										<svg class="payment-icon" width="36" height="32">
 									<use href="./images/symbol-defs.svg#icon-visa"></use>
-								</svg>
+								</svg></span>
 							</label>
 							<label class="payment-label">
-								<input
-									class="visually-hidden payment-input"
-									type="radio"
-									name="user-payment"
-									value="mastercard"
-									required
-								/>
-								<svg class="payment-icon" width="36" height="32">
+								<input class="visually-hidden payment-input" type="radio" name="user-payment" value="mastercard"/>
+									<span class="payment-icon-check">
+										<svg class="payment-icon" width="36" height="32">
 									<use href="./images/symbol-defs.svg#icon-mastercard"></use>
-								</svg>
+								</svg></span>
 							</label>
 							<label class="payment-label">
-								<input
-									class="visually-hidden payment-input"
-									type="radio"
-									name="user-payment"
-									value="googlepay"
-									required
-								/>
-								<svg class="payment-icon" width="36" height="32">
-									<use href="./images/symbol-defs.svg#icon-google-pay"></use>
-								</svg>
+								<input class="visually-hidden payment-input" type="radio" name="user-payment" value="google-pay"/>
+									<span class="payment-icon-check">
+										<svg class="payment-icon" width="36" height="32">
+										<use href="./images/symbol-defs.svg#icon-google-pay"></use>
+									</svg>
+								</span>
 							</label>
 							<label class="payment-label">
-								<input
-									class="visually-hidden payment-input"
-									type="radio"
-									name="user-payment"
-									value="apple-pay"
-									required
-								/>
-								<svg class="payment-icon" width="36" height="32">
+								<input class="visually-hidden payment-input" type="radio" name="user-payment" value="apple-pay"/>
+								<span class="payment-icon-check">
+									<svg class="payment-icon" width="36" height="32">
 									<use href="./images/symbol-defs.svg#icon-apple-pay"></use>
 								</svg>
+							  </span>
 							</label>
 						</div>
 					</div>
