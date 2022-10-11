@@ -210,12 +210,12 @@ img {
 .card-set {
 	display: flex;
 	flex-wrap: wrap;
-	margin: calc(-1 * var(--indent) / 2);
+	gap: var(--indent);
 }
 
-.card-set-item {
+.card-set__item {
 	flex-basis: calc((100% - var(--indent) * var(--items)) / var(--items));
-	margin: calc(var(--indent) / 2);
+	var(--items)) / var(--items));
 }
 
 /* slider */
@@ -620,15 +620,15 @@ img {
 	background-color: #f7f7f7;
 }
 
-.team-title {
+.team__title {
 	margin-bottom: 44px;
 }
 
-.team-wrapper {
+.team__wrapper {
 	padding: 30px 0;
 }
 
-.team-subtitle {
+.team__subtitle {
 	margin-bottom: 8px;
 
 	font-size: 18px;
@@ -638,7 +638,7 @@ img {
 	color: #303030;
 }
 
-.team-position {
+.team__position {
 	margin-bottom: 30px;
 
 	font-size: 14px;
@@ -672,11 +672,11 @@ svg:hover {
 	display: flex;
 	justify-content: center;
 }
-.social-media-item:not(:last-child) {
+.social-media__item:not(:last-child) {
 	margin-right: 10px;
 }
 
-.social-media-link {
+.social-media__link {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -689,32 +689,27 @@ svg:hover {
 	transition: color var(--anim-fast), background-color var(--anim-fast);
 
 }
-/* Встановлюємо fill на іконку при ховері на посилання */
-/* .social-media-link:hover .social-media-icon,
-.social-media-link:focus .social-media-icon {
-	fill: #ff6c00;
-} */
 
-.social-media-link:hover,
-.social-media-link:focus {
+.social-media__link:hover,
+.social-media__link:focus {
 	color: #ff6c00;
 	background-color: #555555;
 }
 
-.social-media-icon {
+.social-media__icon {
 	fill: currentColor;
 }
 /* Portfolio section */
-.portfolio-list {
+.portfolio__list {
 	--items: 4;
 }
 
-.portfolio-item {
+.portfolio__item {
 	position: relative;
 	overflow: hidden;
 }
-
-.portfolio-overlay {
+/*overlay*/
+.overlay {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -733,11 +728,11 @@ svg:hover {
 	transition: transform var(--anim-fast);
 }
 
-.portfolio-item:hover .portfolio-overlay {
+.portfolio__item:hover .overlay {
 	transform: translateY(0);
 }
 
-.portfolio-desc {
+.overlay__desc {
 	font-size: 18px;
 	color: white;
 }
