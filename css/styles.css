@@ -100,7 +100,7 @@ img {
 	color: var(--main-dark-theme);
 }
 
-.socials__link {
+.socials-link {
 	font-weight: 600;
 	font-size: 11px;
 	line-height: 1.36;
@@ -115,8 +115,8 @@ img {
 	transition: color var(--anim-slow);
 }
 
-.socials__link:hover,
-.socials__link:focus {
+.socials-link:hover,
+.socials-link:focus {
 	color: var(--accent-txt-cl);
 }
 
