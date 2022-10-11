@@ -215,7 +215,7 @@ img {
 
 .card-set__item {
 	flex-basis: calc((100% - var(--indent) * var(--items)) / var(--items));
-	var(--items)) / var(--items));
+
 }
 
 /* slider */
