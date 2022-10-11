@@ -27,29 +27,29 @@
 	<body data-body>
 		<!--Header-->
 		<header class="header" data-header>
-			<div class="container header-container">
-				<a class="header-logo link" href="./index.html">
-					<img class="header-image" src="./images/Logo.svg" alt="Logo BarberShop" width="69" height="56" />
+			<div class="container header__container">
+				<a class="header__logo link" href="./index.html">
+					<img class="logo__img" src="./images/Logo.svg" alt="Logo BarberShop" width="69" height="56" />
 				</a>
-				<nav class="header-nav">
-					<ul class="header-list list">
-						<li class="header-list-item">
-							<a class="header-link link current-link" href="">Главная</a>
+				<nav class="nav">
+					<ul class="nav__list list">
+						<li class="nav__item">
+							<a class="nav__link link nav__link--current" href="">Главная</a>
 						</li>
-						<li class="header-list-item">
-							<a class="header-link link" href="#price">Услуги и цены</a>
+						<li class="nav__item">
+							<a class="nav__link link" href="#price">Услуги и цены</a>
 						</li>
-						<li class="header-list-item">
-							<a class="header-link link" href="#team">Мастера</a>
+						<li class="nav__item">
+							<a class="nav__link link" href="#team">Мастера</a>
 						</li>
-						<li class="header-list-item">
-							<a class="header-link link" href="#contacts">Контакты</a>
+						<li class="nav__item">
+							<a class="nav__link link" href="#contacts">Контакты</a>
 						</li>
 					</ul>
 				</nav>
-				<div class="header-group">
-					<a class="header-contact link" href="tel:+380441111111">+38 044 111 11 11</a>
-					<button class="header-btn btn btn-mode-dark animate__animated animate__bounce" type="button" data-modal-open>
+				<div class="header__group">
+					<a class="header__contact link" href="tel:+380441111111">+38 044 111 11 11</a>
+					<button class="header__btn btn btn--mode-dark animate__animated animate__bounce" type="button" data-modal-open>
 						онлайн-запись
 					</button>
 				</div>
@@ -58,36 +58,36 @@
 		<main>
 			<!-- Секція Hero -->
 			<section class="hero">
-				<div class="container hero-container">
-					<div class="hero-left-side">
-						<ul class="hero-list list">
-							<li class="hero-item">
-								<a class="hero-link link socials-link" href="">Instagram</a>
+				<div class="container hero__container">
+					<div class="hero__left-side">
+						<ul class="hero__list list">
+							<li class="hero__item">
+								<a class="hero__link link socials-link" href="">Instagram</a>
 							</li>
-							<li class="hero-item">
-								<a class="hero-link link socials-link" href="">Youtube</a>
+							<li class="hero__item">
+								<a class="hero__link link socials-link" href="">Youtube</a>
 							</li>
 						</ul>
 					</div>
 
-					<div class="hero-right-side">
-						<p class="uppertitle uppertitle-mode-dark" lang="en">A hair salon for men in Kyiv</p>
+					<div class="hero__right-side">
+						<p class="uppertitle uppertitle--mode-dark" lang="en">A hair salon for men in Kyiv</p>
 						<h1 class="main-title">BarberShop</h1>
-						<p class="hero-descr">Мы эксперты в модных мужских стрижках. Работаем быстро, осторожно и со вкусом.</p>
+						<p class="hero__descr">Мы эксперты в модных мужских стрижках. Работаем быстро, осторожно и со вкусом.</p>
 					</div>
 
-					<ul class="slider-pagination list">
-						<li class="slider-pagination-item current"></li>
-						<li class="slider-pagination-item"></li>
-						<li class="slider-pagination-item"></li>
+					<ul class="slider list">
+						<li class="slider__item current"></li>
+						<li class="slider__item"></li>
+						<li class="slider__item"></li>
 					</ul>
 
-					<ul class="slider-controls list">
+					<ul class="slider__controls list">
 						<li>
-							<button class="slider-btn slider-btn-prev" type="button">Назад</button>
+							<button class="slider__btn slider__btn--prev" type="button">Назад</button>
 						</li>
 						<li>
-							<button class="slider-btn slider-btn-next" type="button">Вперед</button>
+							<button class="slider__btn slider__btn--next" type="button">Вперед</button>
 						</li>
 					</ul>
 				</div>
@@ -95,14 +95,14 @@
 
 			<!-- Секція About -->
 			<section class="about section">
-				<div class="container about-container">
-					<ul class="about-list list">
-						<li class="about-item">
-							<img class="about-pic" src="./images/boroda.jpg" alt="Бритье бороды" width="270" height="445" />
+				<div class="container about__container">
+					<ul class="about__list list">
+						<li class="about__item">
+							<img class="about__pic" src="./images/boroda.jpg" alt="Бритье бороды" width="270" height="445" />
 						</li>
-						<li class="about-item">
+						<li class="about__item">
 							<img
-								class="about-pic"
+								class="about__pic"
 								src="./images/haircut.jpg"
 								alt="Бритье опасной бритвой"
 								width="270"
@@ -110,18 +110,18 @@
 							/>
 						</li>
 					</ul>
-					<div class="about-group">
-						<p class="uppertitle uppertitle-mode-light">О НАС</p>
-						<h2 class="section-title section-title-mode-light">Лучший Барбершоп твоего города</h2>
-						<p class="section-subtitle section-subtitle-mode-light">
+					<div class="about__group">
+						<p class="uppertitle uppertitle--mode-light">О НАС</p>
+						<h2 class="title title--mode-light">Лучший Барбершоп твоего города</h2>
+						<p class="subtitle subtitle--mode-light">
 							Если ты хочешь добавить в свой образ больше уверенности – тебе точно к нам.
 						</p>
-						<p class="about-descr">
+						<p class="about__descr">
 							Мы команда, которая никогда не останавливается на достигнутом и жаждет перемен. И когда ты попадешь в руки
 							нашего мастера, то уже никогда не сможешь быть прежним. Мы команда, которая всегда с клиентами "на одной
 							волне". Поэтому, мы всегда готовы усовершенствовать каждого, кто к нам приходит!
 						</p>
-						<button class="btn btn-mode-light" type="button">онлайн-запись</button>
+						<button class="btn btn--mode-light" type="button">онлайн-запись</button>
 					</div>
 				</div>
 			</section>
@@ -129,81 +129,81 @@
 			<!-- Секція Price -->
 			<section id="price" class="price section">
 				<div class="container">
-					<p class="uppertitle uppertitle-mode-dark">Проведи время в компании лучших мастеров</p>
-					<h2 class="section-title section-title-mode-dark price-title">Услуги и цены</h2>
-					<ul class="price-list list">
-						<li class="price-list-item">
-							<ul class="price-inner-list list">
-								<li class="price-inner-item">
-									<span class="price-inner-desc">Мужская стрижка</span>
-									<span class="price-inner-cost">от 300 грн.</span>
+					<p class="uppertitle uppertitle--mode-dark">Проведи время в компании лучших мастеров</p>
+					<h2 class="title title--mode-dark price__title">Услуги и цены</h2>
+					<ul class="price__list list">
+						<li class="price__item">
+							<ul class="price__inners list">
+								<li class="price__inner">
+									<span class="price__desc">Мужская стрижка</span>
+									<span class="price__cost">от 300 грн.</span>
 								</li>
-								<li class="price-inner-item">
-									<span class="price-inner-desc">Стрижка бороды</span>
-									<span class="price-inner-cost">от 200 грн.</span>
+								<li class="price__inner">
+									<span class="price__desc">Стрижка бороды</span>
+									<span class="price__cost">от 200 грн.</span>
 								</li>
-								<li class="price-inner-item">
-									<span class="price-inner-desc">Стрижка усов</span>
-									<span class="price-inner-cost">от 200 грн.</span>
+								<li class="price__inner">
+									<span class="price__desc">Стрижка усов</span>
+									<span class="price__cost">от 200 грн.</span>
 								</li>
-								<li class="price-inner-item">
-									<span class="price-inner-desc">Бритье опасной бритвой</span>
-									<span class="price-inner-cost">от 200 грн.</span>
+								<li class="price__inner">
+									<span class="price__desc">Бритье опасной бритвой</span>
+									<span class="price__cost">от 200 грн.</span>
 								</li>
 							</ul>
 						</li>
-						<li class="price-list-item">
-							<ul class="price-inner-list list">
-								<li class="price-inner-item">
-									<span class="price-inner-desc">Cтрижка у стажера</span>
-									<span class="price-inner-cost">от 50 грн.</span>
+						<li class="price__item">
+							<ul class="price__inners list">
+								<li class="price__inner">
+									<span class="price__desc">Cтрижка у стажера</span>
+									<span class="price__cost">от 50 грн.</span>
 								</li>
-								<li class="price-inner-item">
-									<span class="price-inner-desc">Стрижка под насадку</span>
-									<span class="price-inner-cost">от 200 грн.</span>
+								<li class="price__inner">
+									<span class="price__desc">Стрижка под насадку</span>
+									<span class="price__cost">от 200 грн.</span>
 								</li>
-								<li class="price-inner-item">
-									<span class="price-inner-desc">Детская стрижка (до 12 лет)</span>
-									<span class="price-inner-cost">от 300 грн.</span>
+								<li class="price__inner">
+									<span class="price__desc">Детская стрижка (до 12 лет)</span>
+									<span class="price__cost">от 300 грн.</span>
 								</li>
-								<li class="price-inner-item">
-									<span class="price-inner-desc">Камуфлирование седины</span>
-									<span class="price-inner-cost">от 200 грн.</span>
+								<li class="price__inner">
+									<span class="price__desc">Камуфлирование седины</span>
+									<span class="price__cost">от 200 грн.</span>
 								</li>
 							</ul>
 						</li>
 					</ul>
-					<button class="btn btn-mode-dark price-btn" type="button">онлайн-запись</button>
+					<button class="btn btn--mode-dark price__btn" type="button">онлайн-запись</button>
 				</div>
 			</section>
 
 			<!-- Секція Benefits -->
 			<section class="benefits section">
-				<div class="container benefits-container">
-					<div class="benefits-left-side">
-						<ul class="benefits-list list">
-							<li class="benefits-item">
-								<p class="benefits-amount">600</p>
-								<p class="benefits-descr">Довольных клиентов в день</p>
+				<div class="container benefits__container">
+					<div class="benefits__left-side">
+						<ul class="benefits__list list">
+							<li class="benefits__item">
+								<p class="benefits__amount">600</p>
+								<p class="benefits__descr">Довольных клиентов в день</p>
 							</li>
-							<li class="benefits-item">
-								<p class="benefits-amount">50</p>
-								<p class="benefits-descr">Наград за отличный сервис</p>
+							<li class="benefits__item">
+								<p class="benefits__amount">50</p>
+								<p class="benefits__descr">Наград за отличный сервис</p>
 							</li>
-							<li class="benefits-item">
-								<p class="benefits-amount">20</p>
-								<p class="benefits-descr">Лучших мастеров Киева</p>
+							<li class="benefits__item">
+								<p class="benefits__amount">20</p>
+								<p class="benefits__descr">Лучших мастеров Киева</p>
 							</li>
-							<li class="benefits-item">
-								<p class="benefits-amount">100</p>
-								<p class="benefits-descr">Подарков постоянным клиентам</p>
+							<li class="benefits__item">
+								<p class="benefits__amount">100</p>
+								<p class="benefits__descr">Подарков постоянным клиентам</p>
 							</li>
 						</ul>
 					</div>
-					<div class="benefits-right-side">
-						<p class="uppertitle uppertitle-mode-light">старая традиционная школа</p>
-						<h2 class="section-title section-title-mode-light">Почему приходят именно к нам?</h2>
-						<p class="section-subtitle section-subtitle-mode-light">
+					<div class="benefits__right-side">
+						<p class="uppertitle uppertitle--mode-light">старая традиционная школа</p>
+						<h2 class="title title--mode-light">Почему приходят именно к нам?</h2>
+						<p class="subtitle subtitle--mode-light">
 							О нас говорят только хорошее. Но лучше 1 раз увидеть и прочувствовать, чем 10 раз прочитать.
 						</p>
 					</div>
@@ -213,8 +213,8 @@
 			<!-- Секція Team -->
 			<section id="team" class="team section">
 				<div class="container">
-					<p class="uppertitle uppertitle-mode-light">для настоящих ценителей атмосферы</p>
-					<h2 class="team__title section-title section-title-mode-light">Наши мастера</h2>
+					<p class="uppertitle uppertitle--mode-light">для настоящих ценителей атмосферы</p>
+					<h2 class="team__title title title--mode-light">Наши мастера</h2>
 
 					<ul class="team__list card-set list">
 						<li class="team__item card-set__item">
@@ -409,7 +409,7 @@
 			<!-- Секція Portfolio -->
 			<section class="portfolio section">
 				<div class="container">
-					<p class="uppertitle uppertitle-mode-light">На латинском языке “барба” означает “борода”</p>
+					<p class="uppertitle uppertitle--mode-light">На латинском языке “барба” означает “борода”</p>
 					<h2 hidden>Примеры работ</h2>
 					<ul class="portfolio__list list card-set">
 						<li class="portfolio__item card-set__item">
@@ -478,90 +478,90 @@
 
 			<!-- Секція Contacts -->
 			<section id="contacts" class="contacts section">
-				<div class="container contacts-container">
-					<div class="contacts-left-side">
-						<h2 class="section-title section-title-mode-dark">Онлайн-запись</h2>
-						<form name="contact-form" autocomplete="on" novalidate>
-							<div class="contact-form-wrapper">
-								<label class="contact-form-group">
+				<div class="container contacts__container">
+					<div class="contacts__left-side">
+						<h2 class="title title--mode-dark">Онлайн-запись</h2>
+						<form name="contacts-form" autocomplete="on" novalidate>
+							<div class="contacts__wrapper">
+								<label class="contacts__group">
 									<input
-										class="contact-form-field"
+										class="contacts__field"
 										type="text"
 										name="user-name"
 										placeholder="Antony Black"
 										minlength="3"
 										required
 									/>
-									<span class="contact-form-label">Имя*</span>
-									<span class="contact-form-error">Минимальния длинна 3 символа</span>
-									<svg class="contact-form-error-icon" width="15" height="15">
+									<span class="contacts__label">Имя*</span>
+									<span class="contacts__error">Минимальния длинна 3 символа</span>
+									<svg class="contacts__error-icon" width="15" height="15">
 										<use class="icon-attention" href="./images/symbol-defs.svg#icon-attension"></use>
 										<use class="icon-success" href="./images/symbol-defs.svg#icon-success"></use>
 									</svg>
 								</label>
-								<label class="contact-form-group">
+								<label class="contacts__group">
 									<input
-										class="contact-form-field"
+										class="contacts__field"
 										type="phone"
 										name="user-phone"
 										placeholder="+38 (099) 123-45-67"
 										required
 										id="user-phone"
 									/>
-									<span class="contact-form-label">Телефон*</span>
-									<span class="contact-form-error">Введите телефон в указанном формате</span>
-									<svg class="contact-form-error-icon" width="15" height="15">
+									<span class="contacts__label">Телефон*</span>
+									<span class="contacts__error">Введите телефон в указанном формате</span>
+									<svg class="contacts__error-icon" width="15" height="15">
 										<use class="icon-attention" href="./images/symbol-defs.svg#icon-attension"></use>
 										<use class="icon-success" href="./images/symbol-defs.svg#icon-success"></use>
 									</svg>
 								</label>
 							</div>
-							<label class="contact-form-message-group">
+							<label class="contact__message-group">
 								<textarea
-									class="contact-form-message"
+									class="contact__message"
 									name="user-message"
 									rows="5"
 									placeholder="Enter your message"
 									minlength="3"
 								></textarea>
-								<span class="contact-form-label">Cообщение</span>
-								<span class="contact-form-error">Коментарий должен содержать от 3 до 1000 символов</span>
-								<svg class="contact-form-error-icon" width="20" height="20">
+								<span class="contacts__label">Cообщение</span>
+								<span class="contacts__error">Коментарий должен содержать от 3 до 1000 символов</span>
+								<svg class="contacts__error-icon" width="20" height="20">
 									<use class="icon-attention" href="./images/symbol-defs.svg#icon-attension"></use>
 									<use class="icon-success" href="./images/symbol-defs.svg#icon-success"></use>
 								</svg>
 							</label>
-							<button class="btn btn-mode-dark" type="submit">отправить</button>
+							<button class="btn btn--mode-dark" type="submit">отправить</button>
 						</form>
 					</div>
-					<div class="contacts-right-side">
-						<h2 class="section-title section-title-mode-dark">Контакты</h2>
-						<address class="contacts-address">
-							<ul class="contacts-list list">
-								<li class="contacts-item">
+					<div class="contacts__right-side">
+						<h2 class="title title--mode-dark">Контакты</h2>
+						<address class="contacts__address">
+							<ul class="contacts__list list">
+								<li class="contacts__item">
 									<a
-										class="contacts-link link"
+										class="contacts__link link"
 										href="https://goo.gl/maps/YTrfUZCEC6fcr9nRA"
 										target="_blank"
 										rel="noopener noreferrer"
 									>
-										<svg class="contacts-icon" width="24" height="24">
+										<svg class="contacts__icon" width="24" height="24">
 											<use href="./images/symbol-defs.svg#icon-mappin"></use>
 										</svg>
 										ул. Васильковая, 7А Киев, 08132
 									</a>
 								</li>
-								<li class="contacts-item">
-									<a class="contacts-link link" href="tel:+380441111111">
-										<svg class="contacts-icon" width="24" height="24">
+								<li class="contacts__item">
+									<a class="contacts__link link" href="tel:+380441111111">
+										<svg class="contacts__icon" width="24" height="24">
 											<use href="./images/symbol-defs.svg#icon-phonew"></use>
 										</svg>
 										+38 044 111 11 11
 									</a>
 								</li>
-								<li class="contacts-item">
-									<a class="contacts-link link" href="mailto:barbershop@email.com">
-										<svg class="contacts-icon" width="24" height="24">
+								<li class="contacts__item">
+									<a class="contacts__link link" href="mailto:barbershop@email.com">
+										<svg class="contacts__icon" width="24" height="24">
 											<use href="./images/symbol-defs.svg#icon-mail"></use>
 										</svg>
 										barbershop@email.com
@@ -570,8 +570,8 @@
 							</ul>
 						</address>
 
-						<h3 class="uppertitle uppertitle-mode-dark contatcs-uppertitle">время работы</h3>
-						<p class="contacts-scedule">
+						<h3 class="uppertitle uppertitle--mode-dark contatcs__uppertitle">время работы</h3>
+						<p class="contacts__scedule">
 							Ежедневно с
 							<time datetime="09:00">9:00</time>
 							до
@@ -584,16 +584,16 @@
 
 		<!-- Секція футер -->
 		<footer class="footer">
-			<div class="container footer-container ">
-				<div class="footer-cop">
-					<p class="footer-copyright">&#169; Copyright 2020</p></div>
-				<div class="footer-social-list">
-					<ul class=" footer-socials-link list">
+			<div class="container footer__container ">
+				<div class="footer__cop">
+					<p class="footer__copyright">&#169; Copyright 2020</p></div>
+				<div class="footer__list">
+					<ul class=" footer__link list">
 					<li>
-						<a class="link socials-link" href="" target="_blank" rel="noopener noreferrer">Instagram</a>
+						<a class="link socials__link" href="" target="_blank" rel="noopener noreferrer">Instagram</a>
 					</li>
 					<li>
-						<a class="link socials-link" href="" target="_blank" rel="noopener noreferrer">Youtube</a>
+						<a class="link socials__link" href="" target="_blank" rel="noopener noreferrer">Youtube</a>
 					</li>
 				</ul>
 			</div>
@@ -603,13 +603,13 @@
 		<!-- Модальне вікно -->
 		<div class="backdrop is-hidden" data-modal>
 			<div class="modal">
-				<button class="modal-close-btn" type="button" data-modal-close>
+				<button class="modal__close-btn" type="button" data-modal-close>
 					<svg width="20" height="20">
 						<use href="./images/symbol-defs.svg#icon-close"></use>
 					</svg>
 				</button>
 
-				<form class="register-form">
+				<form class="modal__register-form">
 					<strong>Присоединяйтесь к нам!</strong>
 					<label>
 						<span>Имя* </span>
@@ -639,42 +639,42 @@
 					</label>
 
 					<label for="user-location">Виберите район</label>
-					<select class="js-choice" id="user-location">
+					<select class="modal__js-choice" id="user-location">
 						<option>Шевченковский</option>
 						<option>Соломянский</option>
 						<option>Голосеевський</option>
 						<option>Деснянский</option>
 					</select>
 
-					<div class="" role="group" aria-labelledby="payment-method">
+					<div class=payment"" role="group" aria-labelledby="payment-method">
 						<p class="" id="payment-method">Виберите способ оплаты</p>
-						<div class="payment-group">
-							<label class="payment-label">
-								<input class="visually-hidden payment-input" type="radio" name="user-payment" value="visa" checked />
-									<span class="payment-icon-check"> 
-										<svg class="payment-icon" width="36" height="32">
+						<div class="payment__group">
+							<label class="payment__label">
+								<input class="visually-hidden payment__input" type="radio" name="user-payment" value="visa" checked />
+									<span class="payment__icon-check"> 
+										<svg class="payment__icon" width="36" height="32">
 									<use href="./images/symbol-defs.svg#icon-visa"></use>
 								</svg></span>
 							</label>
-							<label class="payment-label">
-								<input class="visually-hidden payment-input" type="radio" name="user-payment" value="mastercard"/>
-									<span class="payment-icon-check">
-										<svg class="payment-icon" width="36" height="32">
+							<label class="payment__label">
+								<input class="visually-hidden payment__input" type="radio" name="user-payment" value="mastercard"/>
+									<span class="payment__icon-check">
+										<svg class="payment__icon" width="36" height="32">
 									<use href="./images/symbol-defs.svg#icon-mastercard"></use>
 								</svg></span>
 							</label>
-							<label class="payment-label">
-								<input class="visually-hidden payment-input" type="radio" name="user-payment" value="google-pay"/>
-									<span class="payment-icon-check">
-										<svg class="payment-icon" width="36" height="32">
+							<label class="payment__label">
+								<input class="visually-hidden payment__input" type="radio" name="user-payment" value="google-pay"/>
+									<span class="payment__icon-check">
+										<svg class="payment__icon" width="36" height="32">
 										<use href="./images/symbol-defs.svg#icon-google-pay"></use>
 									</svg>
 								</span>
 							</label>
-							<label class="payment-label">
-								<input class="visually-hidden payment-input" type="radio" name="user-payment" value="apple-pay"/>
-								<span class="payment-icon-check">
-									<svg class="payment-icon" width="36" height="32">
+							<label class="payment__label">
+								<input class="visually-hidden payment__input" type="radio" name="user-payment" value="apple-pay"/>
+								<span class="payment__icon-check">
+									<svg class="payment__icon" width="36" height="32">
 									<use href="./images/symbol-defs.svg#icon-apple-pay"></use>
 								</svg>
 							  </span>
@@ -682,17 +682,17 @@
 						</div>
 					</div>
 
-					<label class="form-checkbox">
-						<input class="visually-hidden form-checkbox-input" type="checkbox" name="user-agreement" checked />
-						<span class="form-checkbox-custom-checkbox">
-							<svg class="form-checkbox-icon" width="12" height="12">
+					<label class="checkbox">
+						<input class="visually-hidden checkbox__input" type="checkbox" name="user-agreement" checked />
+						<span class="checkbox__custom-checkbox">
+							<svg class="checkbox__icon" width="12" height="12">
 								<use href="./images/symbol-defs.svg#icon-checkmark"></use>
 							</svg>
 						</span>
-						<span class="form-checkbox-agreement">Даю согласие на использование и обработку персональных данных</span>
+						<span class="checkbox__agreement">Даю согласие на использование и обработку персональных данных</span>
 					</label>
 
-					<button class="btn btn-mode-light" type="submit">Зарегистрироваться</button>
+					<button class="btn btn--mode-light" type="submit">Зарегистрироваться</button>
 				</form>
 			</div>
 		</div>
